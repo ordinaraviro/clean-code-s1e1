@@ -13,7 +13,7 @@ body {
 .aaa img {
   width: 100%;
 }
-.aaa .more_inf {
+.aaa .more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -138,11 +138,11 @@ ul li input {
   display:none
 }
 
-ul li.editMode input {
+ul li.edit-mode input {
   display:inline-block;
   width:224px
 }
 
-ul li.editMode label {
+ul li.edit-mode label {
   display:none;
 }
