@@ -6,14 +6,14 @@
   font-family: lato, sans-serif;
 }
 
-.top-line {
+.page-header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.top-line-img {
+.page-header-img {
   width: 100%;
 }
 
@@ -23,13 +23,13 @@
 
 @media (max-width:768px) {
   
-  .top-line {
+  .page-header {
     text-align: center;
   }
 
 }
 
-.main-content {
+.page-main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
