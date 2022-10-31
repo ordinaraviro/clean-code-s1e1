@@ -1,49 +1,63 @@
 /* Basic Style */
+
 .page-body {
   background-color: #f8f8f8;
   color: #333;
   font-family: lato, sans-serif;
 }
+
 .top-line {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .top-line-img {
   width: 100%;
 }
+
 .more-info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.top-line { text-align: center;
+  
+  .top-line {
+    text-align: center;
+  }
+
 }
-}
+
 .main-content {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
+
 .task-wrapper {
   display: flex;
 }
+
 .tasks-list {
   margin:0;
   padding: 0px;
 }
+
 .tasks-list-item, .tasks-list-title {
   list-style:none;
 }
-.input-field,.btn{
+
+.input-field,.btn {
   outline:none;
 }
+
 .btn {
   background: none;
   border: 0px;
@@ -53,10 +67,13 @@
   font-family: lato, sans-serif;
   cursor: pointer;
 }
+
 .btn:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
+
 .tasks-list-title,
 .new-task-label {
   color: #333;
@@ -67,6 +84,7 @@
   margin: 0;
   text-transform: uppercase;
 }
+
 .input-field {
   margin: 0;
   font-size: 18px;
@@ -79,29 +97,33 @@
   font-family: lato, sans-serif;
   color: #888;
 }
+
 .input-field:focus {
   color: #333;
 }
 
 /* New Task */
+
 .new-task-label {
   display: block;
   margin: 0 0 20px;
 }
+
 .input-field#new-task {
   width: 318px;
 }
 
 /* Task list */
+
 .tasks-list-item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .tasks-list-item > * {
   vertical-align: middle;
 }
@@ -109,31 +131,37 @@
 .tasks-list-item > .input-field[type="checkbox"] {
   margin: 0 10px;
 }
+
 .tasks-list-item > label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .tasks-list-item > .input-field {
   width: 226px
 }
+
 .btn.delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .btn.delete img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
+
 .tasks-list#completed-tasks label {
   text-decoration: line-through
   color: #888;
 }
 
 /* Edit Task */
+
 .tasks-list-item .input-field {
   display:none
 }
