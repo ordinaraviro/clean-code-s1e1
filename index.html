@@ -7,43 +7,43 @@
   </head>
   <body class="page-body">
     <header class="page-header">
-      <img class="page-header-img" src="./eisenhower-matrix.jpg" alt="Information about the Eisenhower Matrix">
-      <a class="more-info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+      <img class="page-header__img" src="./eisenhower-matrix.jpg" alt="Information about the Eisenhower Matrix">
+      <a class="page-header__info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </header>
     <main class="page-main">
       <section class="new-task">
-          <label class="new-task-label" for="new-task">Add Item</label>
+          <label class="new-task__label" for="new-task">Add Item</label>
           <div class="task-wrapper">
-              <input id="new-task" class="input-field task">
+              <input id="new-task" class="input-text-field task">
               <button class="btn">Add</button>
           </div>
       </section>
       <section class="tasks">
-        <h3 class="tasks-list-title">Todo</h3>
-        <ul class="tasks-list" id="current-tasks">
-          <li class="tasks-list-item">
-              <input class="input-field" type="checkbox">
+        <h3 class="tasks__title">Todo</h3>
+        <ul class="tasks__list" id="current-tasks">
+          <li class="tasks__item">
+              <input class="input-check-field" type="checkbox">
               <label class="task">Pay Bills</label>
-              <input class="input-field task">
+              <input class="input-text-field task">
               <button class="btn edit">Edit</button>
-              <button class="btn delete"><img src="./remove.svg" alt="Cross button"></button>
+              <button class="btn delete"><img class="btn-delete-svg" src="./remove.svg" alt="Cross button"></button>
           </li>
-          <li class="tasks-list-item edit-mode">
-              <input class="input-field" type="checkbox">
+          <li class="tasks__item edit-mode">
+              <input class="input-check-field" type="checkbox">
               <label class="task">Go Shopping</label>
-              <input value="Go Shopping" class="input-field task">
+              <input value="Go Shopping" class="input-text-field task">
               <button class="btn edit">Save</button>
-              <button class="btn delete"><img src="./remove.svg" alt="Cross button"></button>
+              <button class="btn delete"><img class="btn-delete-svg" src="./remove.svg" alt="Cross button"></button>
           </li>
         </ul>
-        <h3 class="tasks-list-title">Completed</h3>
-        <ul class="tasks-list" id="completed-tasks">
-          <li class="tasks-list-item">
-              <input class="input-field" type="checkbox" checked>
+        <h3 class="tasks__title">Completed</h3>
+        <ul class="tasks__list" id="completed-tasks">
+          <li class="tasks__item">
+              <input class="input-check-field" type="checkbox" checked>
               <label class="task">See the Doctor</label>
-              <input class="input-field task">
+              <input class="input-text-field task">
               <button class="btn edit">Edit</button>
-              <button class="btn delete"><img src="./remove.svg" alt="Cross button"></button>
+              <button class="btn delete"><img class="btn-delete-svg" src="./remove.svg" alt="Cross button"></button>
           </li>
         </ul>
       </section>
